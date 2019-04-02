@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home1"
+    android:background="@drawable/home">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="77dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/proicon" />
+
+    <SearchView
+        android:layout_width="179dp"
+        android:layout_height="35dp"
+
+        android:layout_alignTop="@+id/button5"
+        android:orientation="vertical"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="247dp"
+        android:background="?android:attr/listDivider" />
+
+
+
+</RelativeLayout>

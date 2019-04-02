@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+
+    <Button
+        android:id="@+id/addressBook"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:text="@string/address_book"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:gravity="left|center_vertical"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="89dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/accountSetting"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/account_settings"
+        android:visibility="visible"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:gravity="left|center_vertical"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="40dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/currency"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:text="@string/currency"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:text="@string/language"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/CheckNewVersion"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:text="@string/check_new_version"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/changePassword"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:text="@string/change_password"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@color/colorAccent"
+        android:text="@string/sign_out"
+        />
+
+</RelativeLayout>

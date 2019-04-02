@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCart">
+
+    <TextView
+        android:id="@+id/your_shopping"
+        android:layout_width="189dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:text="@string/your_shopping"
+        android:textSize="@dimen/text_splash" />
+
+    <TextView
+        android:id="@+id/cart_is"
+        android:layout_width="92dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/your_shopping"
+        android:layout_marginStart="117dp"
+        android:text="@string/cart_is"
+        android:textSize="@dimen/text_splash" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="78dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/cart_is"
+        android:layout_marginTop="216dp"
+        android:text="Empty"
+        android:textSize="@dimen/text_splash" />
+
+    <Button
+        android:id="@+id/shopping"
+        android:layout_width="182dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:background="@color/colorAccent"
+        android:text="@string/go_shopping" />
+
+</RelativeLayout>
